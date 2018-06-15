@@ -20,6 +20,8 @@ Years - De wapenwetgeving in heel Amerika is in het algemeen strikter geworden, 
 Hypothese  
 Massale schietpartijen waarbij 5 of meer mensen om het leven komen worden grotendeels door jongeren uitgevoerd, omdat ze emotioneel instabieler zijn dan ouderen.
 
+De dagen waarop de meeste incidenten worden gepleegd zijn nationale feestdagen zoals oudejaarsavond en 4 Juli.
+
 3. How does the pattern between killer/victim look between various incidents over the years. Is it mostly family/relation or do we see more reported gang violence for instance? 
 
 Hypothese  
