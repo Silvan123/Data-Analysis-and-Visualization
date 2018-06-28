@@ -32,3 +32,7 @@ Wapenincidenten zullen vaker gerelateerd zijn aan bendes dan familierelaties, om
 4. Are there any notable difference for the incidents/casualties over the months? What seasons are most likely to be murdered in?
 
 Wij verwachten dat de orde minder strict wordt gereguleerd in deze tijden en hierom zullen er meer incidenten, doden en gewonden plaatsvinden in deze jaargetijden. 
+
+5. Are the notable differences for days of the month? How do holidays influence these days of the months? 
+
+De hypothese is dat er dagen zijn waarop significant meer word geschoten dan anderen, wij kunnen echter niet specifiek deze dagen aanduiden.
