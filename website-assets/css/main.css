@@ -4,10 +4,9 @@
 /* Basic Layout */
 
 /* Questions -- Slideup/Slidedown Method: https://weblog.west-wind.com/posts/2014/Feb/22/Using-CSS-Transitions-to-SlideUp-and-SlideDown */
-.questions h1 {
+p {
   font-family: 'Raleway';
   text-align: center;
-  background-color: black;
   color: white;
   width: 100%;
   padding: 25px;
@@ -15,7 +14,17 @@
   margin-top: -1px;
 }
 
-#flip1, #flip2, #flip3, #flip4 {
+.under {
+  font-family: 'Raleway';
+  text-align: center;
+  color: black;
+  width: 100%;
+  padding: 25px;
+  font-size: 1.5rem;
+  margin-top: -1px;
+}
+
+#flip1, #flip2, #flip3, #flip4, #flip5 {
   font-family: 'Raleway';
   text-align: center;
   background-color: black;
@@ -26,8 +35,8 @@
   margin-top: 4px;
 }
 
-#panel1, #panel2, #panel3, #panel4 {
-  display: none;
+table {
+	font-family: 'Raleway';
 }
 
 /* Graphs */
@@ -44,6 +53,36 @@
 
 .graph img {
   width: 100%;
+}
+
+.test {
+	width: 40%;
+	margin-right: -20px;
+	margin-top: 60px;
+}
+
+.center {
+	margin: auto;
+	display: flex;
+	margin-left: auto;
+    margin-right: auto;
+	width: 1200px;
+}
+
+.center2 {
+	margin: auto;
+	display: flex;
+	margin-left: auto;
+    margin-right: auto;
+	width: 50%;
+}
+
+.month_fig {
+	margin: auto;
+	display: flex;
+	margin-left: auto;
+    margin-right: auto;
+	width: 40%;
 }
 
 /* Banner (https://templated.co/industrious) */
@@ -154,5 +193,6 @@
     opacity: 0; }
   body.is-preload #banner:before {
     opacity: 1; }
+
 
 
