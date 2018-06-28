@@ -1,0 +1,158 @@
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600");
+
+/* Basic Layout */
+
+/* Questions -- Slideup/Slidedown Method: https://weblog.west-wind.com/posts/2014/Feb/22/Using-CSS-Transitions-to-SlideUp-and-SlideDown */
+.questions h1 {
+  font-family: 'Raleway';
+  text-align: center;
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 25px;
+  font-size: 1.5rem;
+  margin-top: -1px;
+}
+
+#flip1, #flip2, #flip3, #flip4 {
+  font-family: 'Raleway';
+  text-align: center;
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 25px;
+  font-size: 1.0rem;
+  margin-top: 4px;
+}
+
+#panel1, #panel2, #panel3, #panel4 {
+  display: none;
+}
+
+/* Graphs */
+.graph-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.graph {
+  width: 50%;
+}
+
+.graph img {
+  width: 100%;
+}
+
+/* Banner (https://templated.co/industrious) */
+#banner {
+  background-color: #111111;
+  color: rgba(255, 255, 255, 0.5);
+  background-image: url("http://www.intoon.com/toons/2009/KeefeM20090411.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 0;
+  height: 30rem !important;
+  min-height: 25rem;
+  overflow: hidden;
+  text-align: center;
+  width: 100%; 
+  position: relative;
+  z-index: 0; }
+
+  #banner > .inner {
+    -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    transform: scale(1.0);
+    -moz-transition: opacity 1s ease, -moz-transform 1s ease;
+    -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+    -ms-transition: opacity 1s ease, -ms-transform 1s ease;
+    transition: opacity 1s ease, transform 1s ease;
+    opacity: 1;
+    position: relative;
+    z-index: 3; }
+    #banner > .inner > :last-child {
+      margin-bottom: 0; }
+  #banner h1 {
+    font-family: 'Raleway';
+    font-size: 4rem;
+    margin-bottom: 1rem; }
+  #banner p {
+    font-size: 1.5rem;
+    font-family: 'Raleway';} 
+  #banner a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none; }
+    #banner a:hover {
+      color: #ffffff; }
+  #banner:before {
+    -moz-transition: opacity 3s ease;
+    -webkit-transition: opacity 3s ease;
+    -ms-transition: opacity 3s ease;
+    transition: opacity 3s ease;
+    -moz-transition-delay: 1.25s;
+    -webkit-transition-delay: 1.25s;
+    -ms-transition-delay: 1.25s;
+    transition-delay: 1.25s;
+    background: #111111;
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0.45;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0; }
+  #banner:after {
+    background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);
+    content: ' ';
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    webkit-linear-gradientidth: 100%;
+    width: 100%;
+    z-index: 0; }
+  #banner.small {
+    height: 30vh !important;
+    min-height: 30vh; }
+  @media screen and (max-width: 1280px) {
+    #banner video {
+      display: none; } }
+  @media screen and (max-width: 736px) {
+    #banner {
+      height: auto !important;
+      min-height: 0;
+      padding: 4rem 2rem 4rem 2rem; }
+      #banner .inner {
+        width: 100%; }
+      #banner h1 {
+        font-size: 1.75rem;
+        margin-bottom: 0.5rem;
+        padding-bottom: 0; }
+      #banner p {
+        font-size: 1.25rem; }
+      #banner br {
+        display: none; }
+      #banner .button {
+        width: 100%; } }
+  @media screen and (max-width: 480px) {
+    #banner p {
+      font-size: 1rem; } }
+  body.is-preload #banner .inner {
+    -moz-transform: scale(0.99);
+    -webkit-transform: scale(0.99);
+    -ms-transform: scale(0.99);
+    transform: scale(0.99);
+    opacity: 0; }
+  body.is-preload #banner:before {
+    opacity: 1; }
+
+
